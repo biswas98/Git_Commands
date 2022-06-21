@@ -19,7 +19,13 @@ Vim Editor Tutorial:
 	     then write= " :wq " and press "enter". 
 
 
-Git Commands:                                 
+Git Commands:          
+
+	- git config --global user.email "email_ID" (to change the email id in git)
+	
+	- git config --global user.name "name" (to change the Username in git)
+
+	-git config --global --edit (to change both Username & Email at the same time)                      
 	
 	- git --help (for commant help)
 
@@ -45,6 +51,8 @@ Git Commands:
 
 	- git rm -f <file_name> (this command will remove a file from the staged area as well as from the original directory also )
 	- git rm --cached <file_name> (this command will remove the file from only the staging area)
+
+	- git rm --cached * (this command will remove all files from the staging area)
 
 	- touch .gitignore (to create a file which will ignore some files which you don't want to track)
 	
