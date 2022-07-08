@@ -68,6 +68,9 @@ Git Commands:
 
 	- git remote add <remote> <url> (this command will link my local repository which is in my pc with the remote or server repository which is the github)
 			ex- git remote add origin http://www.github.com/bisesjklj		
+
+	
+	- git remote set-url origin <new_url> (this is used to change the remote location or repository of a git repo)
 	
 	- git remote ( this will show my all remote names )
 
@@ -80,7 +83,6 @@ Git Commands:
 
 	- git push -u <remote> <branch_Name> (this will set a upstream for a branch so that whenever we push any update we can directly write <git push> and it will push update to the same branch without writting the whole <git push origin master> command> )
 
-	-
 
 	
 
