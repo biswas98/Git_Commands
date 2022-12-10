@@ -83,7 +83,8 @@ Git Commands:
 
 	- git push -u <remote> <branch_Name> (this will set a upstream for a branch so that whenever we push any update we can directly write <git push> and it will push update to the same branch without writting the whole <git push origin master> command> )
 
-
+	- git push <remote> <branch_Name> (this command is used in local system if the local git is running behind the update in the github profile)
+			ex- git push origin master 
 	
 
 
