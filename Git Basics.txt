@@ -85,6 +85,7 @@ Git Commands:
 
 	- git push <remote> <branch_Name> (this command is used in local system if the local git is running behind the update in the github profile)
 			ex- git push origin master 
+	- git stash (this command will stash the current modified files, so that we can pull from other branches or do other stuff)
 	
 
 
