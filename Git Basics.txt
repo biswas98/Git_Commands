@@ -76,6 +76,9 @@ Git Commands:
 
 	- git remote -v (this will show fetch and push links created for my remote repo)
 
+	- git remote rm <remote_name> (this command is used to remove the remote)
+		ex - git remote rm origin
+
 	- git push <remote> <branch_Name> ( this will push only specified branch from local repo to the remote repo)
 			ex- git push origin master
 
@@ -89,6 +92,8 @@ Git Commands:
 	- git stash (this command will stash the current modified files, so that we can pull from other branches or do other stuff)
 
 	- git stash pop (this command is used to get back all your modified stashed files afterwards)
+	
+	
 	
 
 
