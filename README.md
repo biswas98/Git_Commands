@@ -1,6 +1,4 @@
-# Git Command
-
-### Useful Git commands
+# Useful GIT commands
 
 - ### To change the email id in git:
   ```sh
